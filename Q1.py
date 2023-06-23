@@ -6,7 +6,7 @@ def add_string(str1):
     pass
   if len(str1)==3:
     str1 = "N/A"
-    return str1
+    return (str1+"ing")
   elif len(str1)>3 and "ing" not in str1:
     return (str1+"ing")
   elif "ing" in str1:
